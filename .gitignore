@@ -1,0 +1,21 @@
+# PyCharm
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Conda / venv
+.env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
