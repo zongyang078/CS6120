@@ -20,5 +20,9 @@ build/
 dist/
 *.egg-info/
 
-echo "cs6120-lab2/" >> ~/code/CS6120/.gitignore
-echo "cs6120-lab2-volume/" >> ~/code/CS6120/.gitignore
+# Output directories
+*_output/
+*-output/
+
+# Docker lab files
+cs6120-lab*/
