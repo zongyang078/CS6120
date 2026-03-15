@@ -42,7 +42,7 @@ def process_data(file_name):
 
 def process_data_test():
 
-    probs = process_data('./shakespeare-edit.txt')
+    probs = process_data('./as3_file/shakespeare-edit.txt')
     # Note: the assertions below are calibrated for shakespeare-7k.txt.
     # Comment them back in if testing with that file.
     # assert np.allclose(probs['thee'], 0.004476442720185026), \
@@ -150,7 +150,7 @@ def probable_substitutes_test():
 
     print("probable_substitutes: \033[1;32mtests OK.\033[0m")
 
-#@title Q3: The Minimum Edit Distnance
+#@title Q3: The Minimum Edit Distance
 
 def min_edit_distance(source, target, ins_cost = 1, 
                       del_cost = 1, rep_cost = 2):
@@ -218,7 +218,7 @@ if __name__ == '__main__':
     min_edit_distance_test()
 
     print("Processing data, assuming that shakespeare-edit.txt is in working directory...")
-    probs = process_data('./shakespeare-edit.txt')
+    probs = process_data('./as3_file/shakespeare-edit.txt')
 
     print("\n\nLet's try autocorrect. \"(Q)/(q)uit\" to end.")
     entry = input("Enter any word:")

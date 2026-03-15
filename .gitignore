@@ -26,3 +26,7 @@ dist/
 
 # Docker lab files
 cs6120-lab*/
+
+# large files
+as5/as5_file/arxiv_titles.txt
+*.pkl

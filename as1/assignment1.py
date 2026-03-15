@@ -126,7 +126,7 @@ def autocomplete_word(prefix: str, model_or_data_structure) -> List[str]:
 
 # test
 def run_basic_tests():
-    vocab = read_vocabulary("shakespeare-edit.txt")
+    vocab = read_vocabulary("as3_file/shakespeare-edit.txt")
     model = process_data(vocab)
 
     tests = [
