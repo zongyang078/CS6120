@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(unzip -p /Users/lizongyang/Desktop/ner-data.zip data/small/tags.txt)",
+      "Bash(unzip -p /Users/lizongyang/Desktop/ner-data.zip data/large/dataset_params.json)"
+    ]
+  }
+}

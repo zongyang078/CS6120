@@ -30,3 +30,6 @@ cs6120-lab*/
 # large files
 as5/as5_file/arxiv_titles.txt
 *.pkl
+# Large binary files
+vectors-words.bin
+word2vec/
